@@ -53,7 +53,7 @@ class _TwoSumScreenState extends State<TwoSumScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Two Sum 🧮")),
+      appBar: AppBar(title: const Text("Two Sum")),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
