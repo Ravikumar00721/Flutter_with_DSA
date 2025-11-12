@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dsa/dsa_problems/arrays/contains_duplicate.dart';
 import 'package:flutter_dsa/dsa_problems/arrays/move_zeroes.dart';
+import 'package:flutter_dsa/dsa_problems/arrays/three_sum.dart';
 import 'dsa_problems/arrays/remove_duplicates_from_sorted_array.dart';
 import 'home_screen.dart';
 
@@ -20,7 +21,7 @@ class DsaApp extends StatelessWidget {
         colorSchemeSeed: Colors.indigo,
         useMaterial3: true,
       ),
-      home: const CleanMessagesApp(),
+      home: const TripletFinderApp(),
     );
   }
 }
